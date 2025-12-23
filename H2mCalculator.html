@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="calx.css">
+	<title>MyCalx</title>
+</head>
+<body id="bgcolor">
+<CENTER>
+	<div id="outliner">
+    <div id="div1">
+<input type="text" id="display" class="inpDisp" disabled><br>
+<input type="text" id="displayAns" class="AnsHere" disabled>
+	</div>
+	<div> 
+		<!-- <button onclick=""></button>
+		<button onclick=""></button>
+ -->
+		<table border="0">
+			<center><tr>
+			<td class="topbtn">
+			<td><button id="upbtn2">MENU</button></td>
+			<td><button id="upbtn2">SHIFT</button></td>
+			<td><button id="upbtn2">ALPHA</button></td>
+			<td><button id="upbtn2"></button></td>
+			<td><button id="upbtn2"></button></td>
+			<td><button id="onbtn">ON</button></td>
+			</tr></center>
+		<tr>
+			<td class="topbtn">
+			<td><button id="upbtn"><font size="2">CALC</font></button></td>
+			<td><button id="upbtn">∫</button></td>
+			<!-- <td><button id="btn1"></button></td> -->
+			<td colspan="2"><button id="upbtn1"><center><font size="10"></font></center></button></td>
+			<!-- <td><button id="btn1"></button></td> -->
+			<td><button id="upbtn">X<sup>-1</sup></button></td>
+			<td><button id="upbtn">log<sub>∎</sub></button></td>
+			<!-- <td><button id="upbtn">e <sup>∎</sup></button></td> -->
+			<!-- <td><button id="upbtn">tan</button></td> -->
+			</td>
+		    </tr>
+			<td class="topbtn">
+				<!-- <button>∎∎</button> -->
+	    	<td> <button id="upbtn">/</button></td>	
+			<td><button id="upbtn">√∎</button></td>
+		    <td><button id="upbtn">X<sup>2</sup></button></td>
+			<td><button id="upbtn">X<sup>∎</sup></button></td>
+            <td> <button id="upbtn">log</button></td>
+			 <td><button id="upbtn">ln</button></td>
+			</td>
+		</tr>
+		<tr>
+			<td class="topbtn">
+			<td><button id="upbtn">(-)</button></td>
+			<td><button id="upbtn">֯''"</button></td>
+			<td><button id="upbtn">hyp</button></td>
+			<td><button id="upbtn" onclick="sin('sin')">sin</button></td>
+			<td><button id="upbtn">cos</button></td>
+			<td><button id="upbtn">tan</button></td>
+			</td>
+		</tr>
+		<tr>
+			<td class="topbtn">
+			<td><button id="upbtn"><font size="3">RCL</font></button></td>
+			<td><button id="upbtn"><font size="3">ENG</font></button></td>
+			<td><button id="upbtn">(</button></td>
+			<td><button id="upbtn">)</button></td>
+			<td><button id="upbtn"><font size="2">S⇔D</font></button></td>
+			<td><button id="upbtn">M+</button></td>
+			</td>
+		</tr>
+
+		</table><br>
+		<button onclick="append('7')">7</button>
+		<button onclick="append('8')">8</button>
+		<button onclick="append('9')">9</button>
+		<button onclick="DelOne()" id="greenbtn">DEL</button>
+		<button onclick="CleanAll()" id="greenbtn">AC</button><br><br>
+
+		<button onclick="append('4')">4</button>
+		<button onclick="append('5')">5</button>
+		<button onclick="append('6')">6</button>
+        <button onclick="append('*')">X</button>
+        <button onclick="append('/')">➗</button><br><br>
+
+		<button onclick="append('1')">1</button>
+		<button onclick="append('2')">2</button>
+		<button onclick="append('3')">3</button>
+        <button onclick="append('+')">+</button>
+        <button onclick="append('-')">-</button><br><br>
+
+        <button onclick="append('0')">0</button>
+        <button onclick="append('.')">.</button>
+        <button onclick="SciNot()">x10<sup>x</button>
+        <button onclick=" ANS()" id="greenbtn">Ans</button>
+        <button onclick="EqualSign()">=</button>
+<!-- <button onclick=""></button> -->
+	</div>
+		<!-- <button type="button" onclick="document.getElementById('bgcolor').style.backgroundColor='white'">🔆</button> -->
+</div></CENTER>
+	</div>
+
+</body>
+<script src="script.js">
+</script>
+</html>

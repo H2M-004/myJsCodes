@@ -1,0 +1,115 @@
+body{
+	background-color: darkblue;
+}
+button{
+	height: 30px;
+	width: 57px;
+	border-radius: 10px;
+	background-color: gray;
+	color: white;
+	font-size: 20px;
+	border: none;
+	cursor: pointer;
+	/* gap: 10px; */
+}
+button:active{
+	background-color: black;
+}
+#btn1{
+	background-color: transparent;
+	width:10px;
+	/* height:20px; */
+}
+#upbtn1{
+	background-color:gray;
+	width: 100px;
+	height: 60px;
+	border-radius: 60px;
+	outline-style: solid;
+	outline-color:gray;
+
+}
+#upbtn2{
+	width:45px;
+	height: 20px;
+	border-radius:10px;
+	font-size: 10px;
+	color: yellowgreen;
+}
+#onbtn{
+	width:45px;
+	height:35px;
+	border-radius:40px;
+	color:red;
+	background-color: wheat;
+
+}
+#upbtn{
+	height: 45x;
+	width:49px;
+	background-color: black;
+	color: aliceblue;
+	font-size:20px;
+
+}
+.topbtn{
+	display: grid;
+	grid-template-columns: repeat(1,1fr);
+	gap: 0px;
+	
+}
+input{
+	width: 260px;
+	height: 45px;
+	font-size:30px;
+	background-color: rgb(100, 99, 104);
+	color: rgb(12, 24, 37);
+	border-radius: 10px;
+	outline: none;
+	padding-top: 5px;
+	/* text-align: center; */
+
+}
+.inpDisp{
+	padding-bottom:0px;
+	margin-bottom: 0px;
+}
+#div1{
+background-color:rgb(100, 99, 104);
+width: 300px;
+height: 110px;
+border-radius: 15px;
+margin-top: 25px;
+/* margin-bottom: 25px; */
+padding-top:10px;
+padding-bottom: 1px;
+/* outline-style:solid;
+outline-color: rgb(78, 74, 74); */
+}
+#outliner{
+background-color: rgb(46, 24, 24);
+outline-style:solid;
+outline-color: rgb(46, 24, 24);	
+width: fit-content;
+height: fit-content;
+border-radius: 10px;
+padding-top:1px;
+padding-bottom: 1px;
+}
+#greenbtn{
+	background-color:green;
+	color:cyan;
+}
+.AnsHere{
+	width: 260px;
+	height:40px;
+	align-content: right;
+	padding-top:0px;
+	/* margin-top: 0px; */
+	text-align: right;
+	color: wheat;
+}
+/* #display{
+	text-align: left;
+	background-color: ;
+} */
